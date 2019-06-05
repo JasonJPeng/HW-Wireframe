@@ -1,9 +1,13 @@
+
+
+:root {
+  --section-width: 495px;
+}
+
 * {
   box-sizing: border-box;
   
 }
-
-
 
 body {
     background-color: #777 ;
@@ -36,7 +40,7 @@ body {
 
   section {
     float: left;
-    width:75%;
+    width: var(--section-width);
     padding-bottom: 1000px;
     margin-bottom: -1000px;
   }
@@ -44,7 +48,7 @@ body {
 
   aside {
     float: left;
-    width: 25%;
+    width: calc(100% - var(--section-width));
     padding-bottom: 1000px;
     margin-bottom: -1000px;
      }
