@@ -23,7 +23,7 @@ body {
   }
 
   #container {
-    display: flex;
+    overflow: hidden;
   }
 
   header {
@@ -37,14 +37,16 @@ body {
   section {
     float: left;
     width:75%;
-    flex:1;
+    padding-bottom: 1000px;
+    margin-bottom: -1000px;
   }
   
 
   aside {
     float: left;
     width: 25%;
-    flex:1;
+    padding-bottom: 1000px;
+    margin-bottom: -1000px;
      }
   
   footer {
